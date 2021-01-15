@@ -21,7 +21,7 @@ function tweetEvent(tweet) {
 
     let new_tweet = "It's me!!";
     if (from !== 'surtanao_bb') {
-        new_tweet = 'Surta não @'+from+'!!! Ouça agora a nova música de Wander Luiz: https://sl.onerpm.com/7032476516?_ga=2.229323420.1417882663.1610680040-814832288.1609726552';
+        new_tweet = 'Surta não @'+from+'!!! Se liga na música https://sl.onerpm.com/7032476516?_ga=2.229323420.1417882663.1610680040-814832288.1609726552';
     }
 
     var tweet = {
