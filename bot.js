@@ -4,7 +4,7 @@ const Twit = twit(config);
 
 //Setting up a user stream
 var stream = Twit.stream('statuses/filter', { track: '@surtanao_bb' });
-var stream_tag = Twit.stream('statuses/filter', { track: ['#surtanao', '#surta_nao', '#SurtaNao'] });
+var stream_tag = Twit.stream('statuses/filter', { track: ['#surtanao', '#surta_nao', '#SurtaNao', '#SurtaNão'] });
 
 stream.on('tweet', tweetEvent);
 stream_tag.on('tweet', (tweet) => tweetEvent(tweet));
